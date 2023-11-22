@@ -1,0 +1,10 @@
+<?php
+
+$NAMESPACE$
+
+use DesignPattern\LaravelMakeRepositoryService\Repository\RepositoryContract;
+
+interface $CLASS$RepositoryInterface extends RepositoryContract
+{
+    //
+}
