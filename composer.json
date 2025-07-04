@@ -3,13 +3,13 @@
     "description": "Simple repository, service pattern for laravel",
     "type": "library",
     "require": {
-        "illuminate/http": "~5.0|~6.0|~7.0|~8.0|~9.0",
-        "illuminate/config": "~5.0|~6.0|~7.0|~8.0|~9.0",
-        "illuminate/support": "~5.0|~6.0|~7.0|~8.0|~9.0",
-        "illuminate/database": "~5.0|~6.0|~7.0|~8.0|~9.0",
-        "illuminate/pagination": "~5.0|~6.0|~7.0|~8.0|~9.0",
-        "illuminate/console": "~5.0|~6.0|~7.0|~8.0|~9.0",
-        "illuminate/filesystem": "~5.0|~6.0|~7.0|~8.0|~9.0"
+        "illuminate/http": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
+        "illuminate/config": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
+        "illuminate/support": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
+        "illuminate/database": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
+        "illuminate/pagination": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
+        "illuminate/console": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
+        "illuminate/filesystem": "~5.0|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0"
     },
     "license": "MIT",
     "authors": [
