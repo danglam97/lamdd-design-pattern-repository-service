@@ -57,6 +57,7 @@ class RepositoryCommand extends Command
             (new RepositoryEloquentGenerator([
                 'name'      => $this->argument('name'),
                 'force'     => $this->option('force'),
+                'modelNamespace' => 'App\\Models\\' .$this->argument('name')
             ]))->run();
 
             (new RepositoryInterfaceGenerator([

@@ -1,5 +1,5 @@
 # Laravel 6+ Php Artisan Make:Repository, Php Artisan Make:Service
-A package for addding `php artisan make:repository`, `php artisan make:service` command to Laravel 6+
+A package for addding `php artisan make:repository`, `php artisan make:service` command to Laravel
 
 ## Installation
 Require the package with composer using the following command:
@@ -10,7 +10,7 @@ Or add the following to your composer.json's require-dev  section and `composer 
 
 ```json
 "require-dev": {
-          "lamdd/design-pattern-repository-service": "dev-master"
+          "lamdd/design-pattern-repository-service"
 }
 ```
 
