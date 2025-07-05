@@ -84,9 +84,9 @@ abstract class Generator
     public function getReplacements(): array
     {
         return [
-            'CLASS'          => $this->getClass(),
-            'NAMESPACE'      => $this->getNamespace(),
-            'ROOT_NAMESPACE' => $this->getRootNamespace()
+            'class'          => $this->getClass(),
+            'namespace'      => $this->getNamespace(),
+            'root_namespace' => $this->getRootNamespace()
         ];
     }
 

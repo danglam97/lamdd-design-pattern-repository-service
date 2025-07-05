@@ -72,7 +72,7 @@ class RepositoryEloquentGenerator extends Generator
         ], '\\', $repository);
 
         return array_merge(parent::getReplacements(), [
-            'REPOSITORY' => str_replace(['\\', '/'], '\\', $repository),
+            'repository'    => $repository
         ]);
     }
 }
