@@ -54,12 +54,9 @@ class RepositoryCommand extends Command
     public function fire(): void
     {
         try {
-            $model = $this->option('model') ?? $this->argument('name');
-
             (new RepositoryEloquentGenerator([
                 'name'      => $this->argument('name'),
                 'force'     => $this->option('force'),
-                'modelNamespace' => $model
             ]))->run();
 
             (new RepositoryInterfaceGenerator([
